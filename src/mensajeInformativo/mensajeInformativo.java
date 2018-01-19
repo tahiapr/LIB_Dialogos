@@ -26,7 +26,7 @@ public class mensajeInformativo {
      * @param diag es la variable donde el usuario escribe su mensaje
      * @param titulo es el titulo del mensaje
      */
-    public static void confirmarDialogo(String diag, String titulo) {
+    public static void mensajeInformativo (String diag, String titulo) {
         JOptionPane.showMessageDialog(null, diag, titulo, JOptionPane.WARNING_MESSAGE);
     }
    
