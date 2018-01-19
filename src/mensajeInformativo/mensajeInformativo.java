@@ -16,12 +16,8 @@ import javax.swing.JOptionPane;
 public class mensajeInformativo {
     
         /**
-     * Este dialogo de confirmación mostrará por default las opciones sí, no y
-     * cancelar Devolverá un entero con la opción seleccionada como si
-     * estuviéramos en un vector 
-     * Si selecionamos sí, retornará un 0 
-     * Si seleccionamos no, retornará un 1 
-     * Si seleccionamos cancel, retornará un 2
+     * Este dialogo mostrará un mensaje, de cualquier tipo, que el usuario
+     * tendrá que aceptar
      *
      * @param diag es la variable donde el usuario escribe su mensaje
      * @param titulo es el titulo del mensaje
