@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 /**
  * Esta clase es para que aparezca un mensaje de confirmación, ese mensaje
  * tendrá un texto y debajo dos botones donde el usuario podrá escoger entre dos
- * opciones
+ * o tres opciones
  *
  * @author tperezrodriguez
  */
