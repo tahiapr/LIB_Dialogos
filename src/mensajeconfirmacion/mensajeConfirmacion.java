@@ -28,8 +28,7 @@ public class mensajeConfirmacion {
      * @return es la respuesta del usuario
      */
     public static int confirmarDialogo(String diag) {
-        int resp = JOptionPane.showConfirmDialog(null, diag);
-        return resp;
+        return JOptionPane.showConfirmDialog(null, diag);
     }
 
     /**
@@ -42,8 +41,7 @@ public class mensajeConfirmacion {
      * @return es la respuesta del usuario
      */
     public static int confirmarDialogoSiNoCancel(String diag, String titulo) {
-        int resp = JOptionPane.showConfirmDialog(null, diag, titulo, JOptionPane.YES_NO_OPTION);
-        return resp;
+        return JOptionPane.showConfirmDialog(null, diag, titulo, JOptionPane.YES_NO_OPTION);
     }
 
     /**
@@ -56,8 +54,7 @@ public class mensajeConfirmacion {
      * @return es la respuesta del usuario
      */
     public static int  confirmarDialogoError(String diag, String titulo) {
-        int resp = JOptionPane.showConfirmDialog(null, diag, titulo, JOptionPane.YES_NO_OPTION, JOptionPane.ERROR_MESSAGE);
-        return resp;
+        return JOptionPane.showConfirmDialog(null, diag, titulo, JOptionPane.YES_NO_OPTION, JOptionPane.ERROR_MESSAGE);
     }
 
 }
